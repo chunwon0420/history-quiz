@@ -39,3 +39,23 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# --- Data Extraction Utils ---
+# utils 폴더 내의 모든 pdf 파일 제외
+utils/**/*.pdf
+
+# utils 폴더 내의 모든 이미지 파일 제외
+utils/**/*.png
+utils/**/*.jpg
+utils/**/*.jpeg
+
+# utils 내의 모든 csv 파일은 포함
+!utils/**/*.csv
+
+# 파이썬 가상환경 (사용 시)
+utils/venv/
+.venv/
+
+# 파이썬 캐시 파일
+__pycache__/
+*.pyc
